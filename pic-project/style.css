@@ -1,0 +1,961 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+*{
+    font-family: sans-serif;
+}
+
+
+
+nav .nav li >a{
+    font-size: 16px; 
+    font-weight: 400;
+    
+}
+/* 
+@media (max-width: 576px) { 
+
+    nav, .nav{
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+ } */
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    nav .nav li > a {
+        font-size: 12px;
+    }
+    
+    nav > div img {
+        width: 80px; /* Adjust as needed */
+    }
+
+    nav,.nav{
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+
+    }
+  
+}
+
+
+
+ /* main */
+
+
+
+ main{
+    width: 100%;
+    height: 47rem;
+    border: 1px solid red;
+    background-image: url(her.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    background-color: red;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 49% 97%, 0 90%, 0 48%);
+
+    
+ }
+
+
+ main .pra >span{
+   font-size: 18px;
+   font-weight: 700;
+   
+ }
+
+ main .pra {
+    text-align: center;
+    margin-top: 135px;
+ }
+
+
+
+
+ main .pra >h1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 28px;
+ }
+
+
+ main .pra >p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 20px;
+ }
+
+
+ main .pra >a{
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 30px;
+   
+ }
+
+
+
+ main .pra a >button{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    
+ }
+
+
+
+ /* @media screen and (max-width: 576px) {
+    main {
+      max-width: fit-content;
+      max-height: fit-content;
+     
+    }
+  
+    main .pra > p {
+      text-shadow: 2px 2px 4px #cf3d3d;
+    }
+  } */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    main {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    main .pra {
+        margin-top: 20px;
+    }
+
+    main .pra > span {
+        font-size: 16px;
+    }
+
+    main .pra > h1 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 15px;
+    }
+
+    main .pra > p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+
+    main .pra > a {
+        padding: 10px 20px;
+    }
+
+    main .pra a > button {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+ /* card */
+
+
+
+
+ .card{
+
+    width: 90.19rem;
+    height: 19.44rem;
+    margin:200px auto;
+   
+    ;
+ }
+
+
+ .card >.cahil{
+    width: 16.72rem;
+    height: 19.44rem;
+    background-color: #2d3142;
+    padding: 25px;
+    border-radius: 15px;
+    
+  
+
+ }
+
+ .card .cahil >h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+    
+  
+
+ }
+
+
+
+ .card .cahil >p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #DDDDDD;
+
+  
+
+ }
+
+
+ .card >.h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 20px 0;
+    
+  
+
+ }
+
+
+ .card .cahil >i{
+  font-size: 20px;
+
+  
+
+ }
+
+
+
+/* 
+ @media screen and (max-width: 576px){
+    .card {
+        flex-direction: column;
+      max-width: fit-content;
+        max-height: fit-content;
+        margin: 400px auto;
+       
+        */
+        
+        /* height: calc(100% - 10px); */
+      
+        
+    /* }
+
+
+    .card .cahil {
+        height: calc((100% - 20px));
+
+    }
+    } */
+
+
+    
+       
+@media screen and (max-width: 576px) {
+    .card {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        margin: 100px auto;
+        gap: 20px;
+    }
+
+    .card > .h1 {
+        font-size: 36px;
+        line-height: 40px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .card > .cahil {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card .cahil > h1 {
+        font-size: 24px;
+    }
+
+    .card .cahil > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .card .cahil > i {
+        font-size: 24px;
+    }
+}
+    
+    
+
+
+/* our mission */
+
+
+
+.our{
+ width: 100%;
+ height: 48rem;
+ 
+ margin: 200px auto;
+}
+
+
+
+.our .p-g >h4{
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgb(218, 142, 134);
+    margin-top: 17px;
+}
+
+
+
+.our .p-g >h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin: 56px 0;
+    
+}
+
+
+
+
+.our .p-g >p{
+    font-weight:400;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    padding-top: 56px;
+    margin-bottom: 102px;
+}
+
+
+.our .p-g >a{
+    font-weight:700;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 15px 25px;
+    border: 1px solid red;
+    border-radius: 23px;
+ 
+   
+  
+}
+
+
+
+
+.our >.img{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    position: relative;
+    
+    
+}
+
+
+.our .img >.calo{
+ 
+   background-image: url(blan.png);
+   
+   
+}
+
+
+
+.sada{
+    position: absolute;
+    top: 140px;
+    left: -250px;
+    z-index: 1;
+   
+
+}
+
+
+
+
+
+.sad{
+    position: absolute;
+    top: 130px;
+    left: -180px;
+   
+
+}
+
+
+
+.fman{
+
+    position: absolute;
+    top:250px;
+    left: -100px;
+}
+
+.lal{
+    position: absolute;
+    top: 50px;
+    right: -90px;
+    z-index: 1;
+    
+    
+}
+
+
+.la{
+    position: absolute;
+    top: 210px;
+    right: -100px;
+    
+    
+}
+
+
+
+
+
+
+.chear{
+    position: absolute;
+    top: 310px;
+    right: -60px;
+}
+
+
+.calo{
+    position: absolute;
+    top: 400px;
+    left: -130px;
+
+    
+    
+}
+
+
+.cal{
+    position: absolute;
+    top: 380px;
+    left: -70px;
+   width: 100px;
+    height: 150px;
+    color: rgb(0, 255, 132);
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+.our{
+    flex-direction: column;
+    max-width: fit-content;
+    max-height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.our >.img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img .p-g >h1{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.our .p-g >h4{
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.sada, .sad, .lal, .la{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+
+
+
+}
+
+/* our-2 */
+
+
+
+
+.mission{
+    width: 100%;
+    height: 48rem;
+    margin: 0 auto;
+   
+
+}
+
+.mission >.mis{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    position: relative;
+    
+    
+}
+
+
+
+
+.saa{
+    position: absolute;
+    top: 140px;
+    left: -250px;
+    z-index: 1;
+   
+
+}
+
+
+
+
+
+.sa{
+    position: absolute;
+    top: 130px;
+    left: -180px;
+   
+
+}
+
+
+.fma{
+
+    position: absolute;
+    top:250px;
+    left: -100px;
+}
+
+
+.ll{
+    position: absolute;
+    top: 50px;
+    right: -90px;
+    z-index: 1;
+    
+    
+}
+
+
+.la{
+    position: absolute;
+    top: 210px;
+    right: -100px;
+    
+    
+}
+
+
+
+.chea{
+    position: absolute;
+    top: 310px;
+    right: -60px;
+}
+
+
+.cao{
+    position: absolute;
+    top: 400px;
+    left: -130px;
+
+    
+    
+}
+
+
+.ca{
+    position: absolute;
+    top: 380px;
+    left: -70px;
+   width: 100px;
+    height: 150px;
+    color: rgb(0, 255, 132);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mission .us >h4{
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgb(218, 142, 134);
+    margin-top: 17px;
+}
+
+
+
+.mission .us  >h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin: 56px 0;
+    
+}
+
+
+
+
+.mission .us >p{
+    font-weight:400;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    padding-top: 56px;
+    margin-bottom: 102px;
+}
+
+
+.mission .us  >a{
+    font-weight:700;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 15px 25px;
+    border: 1px solid red;
+    border-radius: 23px;
+ 
+   
+  
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+    .mission{
+        flex-direction: column;
+        max-width: fit-content;
+        max-height: fit-content;
+       
+        
+    }
+    
+    .mission >.mis{
+        flex: 1;
+      flex-direction: column;
+        max-width: fit-content;
+        max-height: fit-content;
+        gap: 20px;
+    }
+    
+    
+    .mission .mis >h1,h4{
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 100px;
+    
+    }
+    
+    .mission .mis >h4{
+        font-weight: 200;
+        font-size: 1rem;
+    }
+    
+    .saa, .sa, .la, .la{
+        flex-direction: column;
+        max-width: fit-content;
+        max-height: fit-content;
+        height: auto;
+       
+    }
+    
+    
+    
+    
+    }
+    
+
+
+    /* midia */
+
+
+    .midia{
+        width: 100%;
+        height: 25rem;
+   
+        margin-bottom: 200px;
+        
+    }
+
+
+
+    .midia >.wa{
+        width: 20.3rem;
+        height: 17rem;
+        
+    }
+
+
+    .midia .wa div >h1{
+        font-weight: 700;
+        font-size: 2rem;
+      
+    }
+
+
+
+    .midia .wa >p{
+        color: rgba(117, 112, 149, 1);
+        font-weight: 500;
+        font-size: 1rem;
+        margin: -60px 5px;
+
+    }
+
+
+    .midia .wa .sp div >.font{
+        font-weight: 800;
+        font-size: 204px;
+        color: #ffeceb;
+        ;
+    }
+        
+    .midia .wa .sp {
+        margin-top: -50px;
+      
+    }
+    
+
+
+
+
+    @media screen and (max-width: 576px){
+        .midia{
+            flex-direction: column;
+            max-width: fit-content;
+            max-height: fit-content;
+        }
+
+    }
+
+
+
+
+
+/* offic-pic */
+
+
+.offic{
+    width: 100%;
+    height: 48rem;
+    margin: 0 auto;
+    background-color: #fef7f7;
+    
+}
+
+
+.offic div >h1{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+.offic div >.pic{
+    width: 21.3rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 5px;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  
+    
+  
+}
+
+
+.offic div >h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+.offic div >p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .offic{
+        flex-direction: column;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+
+.offic div >h1{
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 20px 20px;
+}
+
+
+.offic div{
+    flex-direction: column;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+
+
+
+}
+
+
+/* footer */
+
+
+
+
+.foo{
+    width: 100%;
+    height: 19rem;
+    margin: 0 auto;
+    
+
+}
+
+
+.foo .famaly{
+    margin-top: 50px;
+}
+
+
+
+
+.foo .famaly >p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 5px;
+}
+
+
+
+
+
+.foo .famaly >h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+
+/*  nimno */
+
+
+.nimno{
+    background-color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .foo{
+        flex-direction: column;
+        max-width: fit-content;
+        max-height: fit-content;
+        margin-top: 200px;
+    }
+
+    .foo .famaly >p{
+        font-size: 1rem;
+        font-weight: 200;
+        margin: 5px;
+    }
+
+    .foo .famaly >h2{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
