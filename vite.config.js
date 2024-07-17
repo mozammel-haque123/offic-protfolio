@@ -5,7 +5,8 @@ Export Default DefineConfig({
 Build: {
 RollupOptions: {
 Input: {
-Main: Resolve(__dirname, "index.Html"),
+Main: Resolve(__dirname, "index.html"),
+News: Resolve(__dirname, "style.css"),
 },
     },
   },
