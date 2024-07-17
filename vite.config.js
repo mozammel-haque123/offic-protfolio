@@ -6,7 +6,7 @@ Build: {
 RollupOptions: {
 Input: {
 Main: Resolve(__dirname, "index.html"),
-News: Resolve(__dirname, "style.css"),
+
 },
     },
   },
