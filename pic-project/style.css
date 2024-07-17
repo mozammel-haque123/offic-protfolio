@@ -31,18 +31,7 @@ nav .nav li >a{
     font-weight: 400;
     
 }
-/* 
-@media (max-width: 576px) { 
 
-    nav, .nav{
-        flex-direction: column;
-        gap: 25px;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-    }
-
- } */
 
 
 
@@ -138,20 +127,6 @@ nav .nav li >a{
     margin-top: 30px;
     
  }
-
-
-
- /* @media screen and (max-width: 576px) {
-    main {
-      max-width: fit-content;
-      max-height: fit-content;
-     
-    }
-  
-    main .pra > p {
-      text-shadow: 2px 2px 4px #cf3d3d;
-    }
-  } */
 
 
 
@@ -265,27 +240,7 @@ nav .nav li >a{
 
 
 
-/* 
- @media screen and (max-width: 576px){
-    .card {
-        flex-direction: column;
-      max-width: fit-content;
-        max-height: fit-content;
-        margin: 400px auto;
-       
-        */
-        
-        /* height: calc(100% - 10px); */
-      
-        
-    /* }
 
-
-    .card .cahil {
-        height: calc((100% - 20px));
-
-    }
-    } */
 
 
     
@@ -411,6 +366,7 @@ nav .nav li >a{
     top: 140px;
     left: -250px;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
    
 
 }
@@ -423,6 +379,7 @@ nav .nav li >a{
     position: absolute;
     top: 130px;
     left: -180px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
    
 
 }
@@ -434,6 +391,7 @@ nav .nav li >a{
     position: absolute;
     top:250px;
     left: -100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 .lal{
@@ -441,6 +399,7 @@ nav .nav li >a{
     top: 50px;
     right: -90px;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     
     
 }
@@ -450,6 +409,7 @@ nav .nav li >a{
     position: absolute;
     top: 210px;
     right: -100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     
     
 }
@@ -463,6 +423,7 @@ nav .nav li >a{
     position: absolute;
     top: 310px;
     right: -60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 
@@ -470,6 +431,7 @@ nav .nav li >a{
     position: absolute;
     top: 400px;
     left: -130px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 
     
     
@@ -483,6 +445,7 @@ nav .nav li >a{
    width: 100px;
     height: 150px;
     color: rgb(0, 255, 132);
+    
 }
 
 
@@ -560,7 +523,7 @@ nav .nav li >a{
     top: 140px;
     left: -250px;
     z-index: 1;
-   
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 
 }
 
@@ -572,6 +535,7 @@ nav .nav li >a{
     position: absolute;
     top: 130px;
     left: -180px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
    
 
 }
@@ -582,6 +546,7 @@ nav .nav li >a{
     position: absolute;
     top:250px;
     left: -100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 
@@ -590,6 +555,7 @@ nav .nav li >a{
     top: 50px;
     right: -90px;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     
     
 }
@@ -599,6 +565,7 @@ nav .nav li >a{
     position: absolute;
     top: 210px;
     right: -100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     
     
 }
@@ -609,6 +576,7 @@ nav .nav li >a{
     position: absolute;
     top: 310px;
     right: -60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 
@@ -616,6 +584,7 @@ nav .nav li >a{
     position: absolute;
     top: 400px;
     left: -130px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 
     
     
@@ -831,6 +800,7 @@ nav .nav li >a{
     margin: 100px auto;
     background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
   
     
   
